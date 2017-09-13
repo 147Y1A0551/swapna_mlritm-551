@@ -43,40 +43,49 @@ public class Student implements Comparable {
 	}
 
 	public void setId(int id) {
+		
 		this.id = id;
 	}
 
 	public String getFullName() {
+		
 		return fullName;
 	}
 
 	public void setFullName(String fullName) {
+		
 		this.fullName = fullName;
 	}
 
 	public Date getBirthDate() {
+		
 		return birthDate;
 	}
 
 	public void setBirthDate(Date birthDate) {
+		
 		this.birthDate = birthDate;
 	}
 
 	public double getAvgMark() {
+		
 		return avgMark;
 	}
 
 	public void setAvgMark(double avgMark) {
+		
 		this.avgMark = avgMark;
 	}
 
 	@Override
 	public int hashCode() {
+		
 		return super.hashCode();
 	}
 
 	@Override
 	public boolean equals(Object obj) {
+		
 		return super.equals(obj);
 	}
 	
